@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/stylebodyregistro.css">
+    <title>REGISTRO</title>
+</head>
+<body id="body">
+    <header id="header">
+        <a href="indexarte.html"><h2 id="texto1">ARTE</h2></a>
+        <a href="indexartistas.html"><h2 id="texto2">ARTISTAS</h2></a>
+        <a href="indexcalendario.html"><h2 id="texto2">CALENDARIOS</h2></a>
+        
+    <div>
+        <img id="img" src="./img/WhatsApp Image 2023-10-09 at 10.00.55 PM (1).jpeg" alt="">
+        <a href="index.html"><h1 id="texto">ARTECOL</h1></a>
+    </div>
+
+        <a href="indexquienessomos.html"><h2 id="texto2">¿Quienes Somos?</h2></a>
+        <a href="indexinscrpciones.html"><h2 id="texto2">INSCRIPCIONES</h2></a>
+        
+        
+       
+    </header>
+    
+    <section id="secciones">
+        <section id="m">
+            <a  id="eventos" href="EVENTOS"></a>
+        </section>
+       
+        <a href="indexinscrpciones.html"><img  id="imgh" src="./img/201_doc_fotofeiracavalete_05_72dpis.webp" alt=""></a>
+        <a href="indexinscrpciones.html"></a><img  id="imgh" src="./img/5178_5_788.jpg" alt=""></a>
+        <a href="indexinscrpciones.html"></a><img id="imgh" src="./img/8-reglas-de-oro-para-organizar-un-evento-cultural-1_1_1.jpeg" alt=""></a>
+       
+    </section>
+
+    
+     <section id="cajamayor">   
+        <h1 id="resgistro2">INICIAR SECION </h1>
+        <form action="procesar_registro.php" method="post">
+            <section>
+                <h2 id="letras">Nombre:</h2>
+                <input type="text" name="nombre" required>
+            </section>
+            
+            <section>
+                <h2 id="letras" >Apellido:</h2>
+                <input type="text" name="apellido" required>
+            </section>
+            <div id="boton">
+                <h1> INICIAR </h1>
+            </div>
+
+        </form>
+
+        <h1 id="resgistro2">Registro</h1>
+        <form action="procesar_registro.php" method="post">
+            <section>
+                <h2 id="letras">Nombre:</h2>
+                <input type="text" name="nombre" required>
+            </section>
+            
+            <section>
+                <h2 id="letras" >Apellido:</h2>
+                <input type="text" name="apellido" required>
+            </section>
+            
+            <section>
+                <h2 id="letras"  >Correo:</h2>
+                <input type="email" name="correo" required>
+            </section>
+            
+            <section>
+                <h2 id="letras" >Celular:</h2>
+                <input type="tel" name="celular" required>
+            </section>
+            
+            <section>
+                <h2 id="letras">Dirección:</h2>
+                <textarea name="direccion" required></textarea>
+            </section>
+    
+            <div>
+                <h2  id="letras">Departamento:</h2>
+                <select name="departamento" required>
+                    <option value="Cundinamarca">Cundinamarca</option>
+                    <option value="Tolima">Tolima</option>
+                    <option value="Antioquia">Antioquia</option>
+                    <option value="Arauca">Arauca</option>
+                    <option value="Boyaca">Boyaca</option>
+                </select>
+            </div>
+    
+            <div>
+                <h2 id="letras" >Municipio:</h2>
+                <select name="municipio" required>
+                    <option value="Medellin">Medellín</option>
+                    <option value="Cali">Cali</option>
+                    <option value="Facatativa">Facatativá</option>
+                    <option value="Ibague">Ibagué</option>
+                    <option value="Tunja">Tunja</option>
+                </select>
+            </div>
+    
+            <div>
+                <input type="submit" value="Registrarse">
+            </div>
+        </form>
+        <div id="boton">
+            <h1> INICIAR</h1>
+        </div>
+    </section>
+    
+    
+    
+</body>
+<footer class="pie_pagina">
+    <div class="grupo1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="img/WhatsApp Image 2023-09-08 at 10.42.10 AM.jpeg" alt="logo de mercaya">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Caribe supermercados, empresa familiar ,
+                 inició operaciones con el Granero El Antioqueño
+                 en 1987, posteriormente inauguró el Autoservicio Caribe en 1996.
+                  Año 2004 se constituye como persona jurídica ,su razón social Caribe S.A. 
+                  su enfoque se basa en el crecimiento continuo, fortalecido en tecnología y 
+                  crecimiento del talento humano.</p>
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red_social">
+                <img src="./img/icons8-facebook-48.png" alt="">
+                <img src="./img/icons8-instagram-48.png" alt="">
+                <img src="./img/icons8-whatsapp-50.png" alt="">
+            </div>
+        </div>
+        <div id="grupo2">
+            <p> AÑO 2023 <b>mercaya</b> - Todos los derechos reservados </p>
+        </div>
+    </div>
+
+</footer>
+</html>

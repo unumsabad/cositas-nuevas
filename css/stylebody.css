@@ -1,0 +1,509 @@
+@media screen and (min-width:891px){
+    @font-face {
+        font-family:pepe ;
+        src: url(../fonts/Caveat.zip);
+    }
+    
+    #body{
+        background-color: rgba(226, 188, 116, 0.993);
+    }
+    
+    #header{
+        height: 200px;
+        background-color: rgba(226, 188, 116, 0.993);
+        width:100%;
+        top: 0;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        gap:5px;
+    }
+    #texto{
+        font-family:pepe;
+        font-size:50px;
+        margin-left:40px;
+    }
+    #img{
+        width:100px;
+        height:100px;
+        margin-left:100px;
+        margin-top:20px;
+        
+    }
+    #registrate{
+        width: 60px;
+        float: right;
+        margin-right:60px;
+        margin-top:5px;
+    }
+    #titulo1{
+        width: 60px;
+        float: right;
+        margin-right:50px; 
+    }
+    #texto1{
+        margin-left:100px;
+        font-size:29px;
+    }
+    #texto2{
+        margin-left:50px;
+        font-size:29px;
+    }
+    #cajas{
+       
+        height:1900px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        
+    }
+    #caja1{
+        background-color:rgb(130, 116, 134);
+        height:470px;
+        width:400px;
+        margin:40px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    #img3{
+        width:300px;
+        height:200px;
+        margin:25px;
+        border-radius: 20px;
+    }
+    #carrito{
+        width:60px;
+        float:right;
+        margin-right:20px;
+        
+        
+    }
+    #nombres{
+        width:10px;
+        font-size:35px ;
+        margin-left:10px;
+        
+    }
+    #precios{
+        font-size:20px ;
+        margin-left:20px;
+        width:20px;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    .pie_pagina{
+        width:100%;
+        background-color: rgb(17, 17, 16);
+     }
+     .pie_pagina .grupo1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 50px;
+        padding: 45px opx;
+     }
+     .pie_pagina .grupo1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .pie_pagina .grupo1 .box figure img{
+        width:250px;
+     }
+     .pie_pagina .grupo1 .box h2{
+        color: aliceblue;
+        margin-bottom: 25px;
+        font-size:20px;
+        margin-top:40px;
+        margin-left:70px;
+     }
+     .pie_pagina .grupo1 .box p{
+        color: aliceblue;
+     }
+     .pie_pagina .grupo1 .red_social{
+        display:flex;
+        text-decoration:inline-block;
+        width: 15px;
+        height: 45px;
+        line-height:75px;
+        color: beige;
+        margin-left:70px;
+        text-align: center;
+     }
+    #grupo2{
+        background-color: rgb(243, 241, 238);
+        width:100%;
+        margin-left:400px;
+    }
+    #secciones{
+        background-color: rgba(0, 0, 0, 0.89);
+        height:400px;
+        display: flex;
+        flex-direction: row;
+    }
+    #imgh{
+       margin:27px;
+        width:430px;
+        margin-top:100px;
+    }
+    #eventos{
+        color: rgb(229, 233, 236);
+        height:500px;
+        width:500px;
+    }
+    #imge{
+        height:75px;
+        width:100px;
+    }
+    
+}
+@media screen and (min-width:280px) and (max-width:490px){
+    @font-face {
+        font-family:pepe ;
+        src: url(../fonts/Caveat.zip);
+    }
+    body{
+        background-color: rgb(230, 213, 119);
+    }
+    #header{
+        height:100px;
+        background-color: hsla(59, 50%, 38%, 0.993);
+        height:400px;
+        width:2000px;
+        display: flex;
+        flex-direction:column;
+        gap:5px;
+    }
+    #texto{
+        font-family:pepe;
+        margin-left:250px;
+        font-size:40px;
+    }
+    #img{
+        width:100px;
+        height:100px;
+        margin-left:270px;
+        margin-top:20px;
+        
+    }
+    #registrate{
+        width: 60px;
+        float: right;
+        margin-right:60px;
+        margin-top:5px;
+    }
+    #titulo1{
+        width: 60px;
+        float: right;
+        margin-right:50px; 
+    }
+    #texto1{
+        margin-left:230px;
+        font-size:29px;
+    }
+    #texto2{
+        margin-left:230px;
+        font-size:29px;
+    }
+    #cajas{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        
+    }
+    #caja1{
+        background-color:rgb(130, 116, 134);
+        height:870px;
+        width:400px;
+        margin:40px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    #img3{
+        width:300px;
+        height:200px;
+        margin:25px;
+        border-radius: 20px;
+    }
+    #carrito{
+        width:60px;
+        float:right;
+        margin-right:20px;
+        
+        
+    }
+    #nombres{
+        width:10px;
+        font-size:35px ;
+        margin-left:10px;
+        
+    }
+    #precios{
+        font-size:20px ;
+        margin-left:20px;
+        width:20px;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    .pie_pagina{
+        background-color: rgb(17, 17, 16);
+        width:800px;
+        display: flex;
+        flex-direction: column;
+     }
+     .pie_pagina .grupo1{
+        width:100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 50px;
+        padding: 45px opx;
+     }
+     .pie_pagina .grupo1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .pie_pagina .grupo1 .box figure img{
+        width:250px;
+     }
+     .pie_pagina .grupo1 .box h2{
+        color: aliceblue;
+        margin-bottom: 25px;
+        font-size:20px;
+        margin-top:40px;
+        margin-left:40px;
+     }
+     .pie_pagina .grupo1 .box p{
+        color: aliceblue;
+     }
+     .pie_pagina .grupo1 .red_social{
+        display:flex;
+        text-decoration:inline-block;
+        width: 15px;
+        height: 45px;
+        line-height:75px;
+        color: beige;
+        margin-left:70px;
+        text-align: center;
+     }
+    #grupo2{
+        background-color: rgb(243, 241, 238);
+        width:100%;
+        margin-left:400px;
+    }
+    #secciones{
+        background-color: rgba(175, 172, 8, 0.89);
+        height:1300px;
+        width: 2000px;
+        display: flex;
+        flex-direction:column;
+    }
+    #imgh{
+       margin:27px;
+        width:600px;
+        margin-top:100px;
+    }
+    #eventos{
+        color: rgb(229, 233, 236);
+        height:500px;
+        width:500px;
+    }
+    #imge{
+        height:75px;
+        width:100px;
+    }
+    #k{
+        height:80px;
+        width:100px;
+    }
+      
+}
+@media screen and (min-width:491px) and (max-width:570px){
+    @font-face {
+        font-family:pepe ;
+        src: url(../fonts/Caveat.zip);
+    }
+    body{
+        background-color: rgb(230, 213, 119);
+    }
+    #header{
+        height:100px;
+        background-color: hsla(59, 53%, 60%, 0.993);
+        height:400px;
+        width:2000px;
+        display: flex;
+        flex-direction:column;
+        gap:5px;
+    }
+    #texto{
+        font-family:pepe;
+        margin-left:200px;
+        font-size:40px;
+    }
+    #img{
+        width:130px;
+        height:130px;
+        margin-left:230px;
+        margin-top:20px;
+        
+    }
+    #registrate{
+        width: 60px;
+        float: right;
+        margin-right:60px;
+        margin-top:5px;
+    }
+    #titulo1{
+        width: 60px;
+        float: right;
+        margin-right:50px; 
+    }
+    #texto1{
+        margin-left:40px;
+        font-size:29px;
+    }
+    #texto2{
+        margin-left:40px;
+        font-size:29px;
+    }
+    #cajas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        
+    }
+    #caja1{
+        background-color:rgb(130, 116, 134);
+        height:470px;
+        width:400px;
+        margin:40px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    #img3{
+        width:300px;
+        height:200px;
+        margin:25px;
+        border-radius: 20px;
+    }
+    #carrito{
+        width:60px;
+        float:right;
+        margin-right:20px;
+        
+        
+    }
+    #nombres{
+        width:10px;
+        font-size:35px ;
+        margin-left:10px;
+        
+    }
+    #precios{
+        font-size:20px ;
+        margin-left:20px;
+        width:20px;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    .pie_pagina{
+        background-color: rgb(17, 17, 16);
+        width:700px;
+        display: flex;
+        flex-direction: column;
+     }
+     .pie_pagina .grupo1{
+        width:100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 50px;
+        padding: 45px opx;
+     }
+     .pie_pagina .grupo1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .pie_pagina .grupo1 .box figure img{
+        width:250px;
+     }
+     .pie_pagina .grupo1 .box h2{
+        color: aliceblue;
+        margin-bottom: 25px;
+        font-size:20px;
+        margin-top:40px;
+        margin-left:40px;
+     }
+     .pie_pagina .grupo1 .box p{
+        color: aliceblue;
+     }
+     .pie_pagina .grupo1 .red_social{
+        display:flex;
+        text-decoration:inline-block;
+        width: 15px;
+        height: 45px;
+        line-height:75px;
+        color: beige;
+        margin-left:70px;
+        text-align: center;
+     }
+    #grupo2{
+        background-color: rgb(243, 241, 238);
+        width:100%;
+        margin-left:400px;
+    }
+    #secciones{
+        background-color: rgba(175, 172, 8, 0.89);
+        height:1300px;
+        width: 2000px;
+        display: flex;
+        flex-direction:column;
+    }
+    #imgh{
+       margin:27px;
+        width:450px;
+        margin-top:100px;
+    }
+    #eventos{
+        color: rgb(229, 233, 236);
+        height:500px;
+        width:500px;
+    }
+    #imge{
+        height:75px;
+        width:100px;
+    }
+    #k{
+        height:80px;
+        width:100px;
+    }
+      
+}
+
+
+
+
